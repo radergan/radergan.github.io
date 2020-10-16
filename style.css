@@ -1,0 +1,11 @@
+#password{
+    width:100%;
+    font-family:Courier,monospace;
+    background-color:rgb(247, 255, 245);
+    color:rgb(0, 59, 15);
+    font-size:2em;
+    letter-spacing:-0.06em;
+}
+.breadcrumb{
+    background-color:none;
+}

@@ -1,70 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="style.css">
-
-    <title>P. Dalton | Portfolio</title>
-
-</head>
-<body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      
-        <span style="color:white;">Patrick J. Dalton</span>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list" aria-controls="navbar-list" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse justify-content-end" id="navbar-list">
-            <ul class="navbar-nav">
-            
-            <div class="row">
-              <li class="nav-item active col-sm">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item col-sm">
-                <a class="nav-link col-md" href="contact.html">Contact</a>
-              </li>
-              <li class="nav-item col-sm">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Patrick J. Dalton | Web Developer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/colors.css">
+    <script src="script.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" target="_blank" href="https://github.com/radergan">
+           <img src="./images/github.png">github.com/radergan
+          </a>
+          <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false" 
+          data-target="#navMenu" onClick="toggleNav()">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+          <div class="navbar-start"></div>
+          <div class="navbar-end">
+            <a class="navbar-item" href="#projects">Projects</a>
+            <a class="navbar-item" href="./patrick-j-dalton-resume.pdf" target="_blank">Resume</a>
+            <a class="navbar-item" href="https://www.linkedin.com/in/patrick-j-dalton-47bbb9192/" target="_blank">LinkedIn</a>
+            <div class="navbar-item">
+              <a class="button is-rounded is-primary" href="">Contact</a>
             </div>
-            </ul>
+          </div>
         </div>
-        
+      </div>
     </nav>
-
-    <div class="container">
-        <div class="row">
-            <main class="main-section col-md-12 p-5">
-              <h1 class="pb-2">About Me</h1>
-              <div class="row">
-                <section class="col-md-6 pb-4 pr-4">
-                  <p>Patrick Dalton is an I.T. professional from Chicago, Illinois. He has many years of experience working in technical support, web development and graphic design.</p>
-                  <p>Outside of work, Patrick enjoys cooking, watching not-so-good movies, creative writing, and alternative rock music of the 1990's.</p>
-
-                  <div class="pt-3">
-                    <a href="https://github.com/radergan" target="_blank" class="badge badge-success p-2">Github</a>
-
-                    <a href="https://www.linkedin.com/in/patrick-j-dalton-47bbb9192/" target="_blank" class="badge badge-primary p-2">LinkedIn</a>
-                  </div>
-
-                </section>
-                <section class="col-md-6">
-                    <img class="img-fluid" src="images/self.jpg" alt="Photo of Patrick Dalton">
-                </section>
-              </div>
-            </main>
+    <section class="section is-white has-text-centered">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column">
+            <h1 id="main-title" class="is-size-1-desktop is-size-2-tablet is-size-3-mobile is-spaced title">Fullstack Web Developer<span class="primary-color">.</span></h1>
+            <h2 class="subtitle mb-3 is-size-4-desktop primary-color">
+              Hello! My name is Patrick, and I love building for the web.
+            </h2>
+          </div>
         </div>
-    </div>
+      </div>
+    </section>
+    <section class="is-medium is-primary has-text-centered is-long margin-for-icon">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-three-fifths">
+            <figure id="self-portrait" class="image">
+              <img class="is-rounded" src="./images/pj-dalton.jpg">
+            </figure>
+            <h2 class="subtitle is-size-5-desktop">
+              I have worked in the I.T. industry for 10+ years in Chicago, Illinois. I've worked as a  support engineer, web developer and database administrator. My varied experiences equip me with a versatile toolkit which I leverage in learning new technologies and crafting high-quality code.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section skills has-text-centered">
+      <div class="container is-narrow">
+        <div class="content">
+          <div class="columns is-centered">
+            <div class="column">
+              <span class="primary-color material-icons x3">design_services</span>
+              <h1 class="title is-size-4 is-spaced">Design</h1>
+              <p>I strive for clean and designs that facilitate ease-of-use and promote clarity.</p>
+            </div>
+            <div class="column">
+              <span class="primary-color material-icons x3">web</span>
+              <h1 class="title is-size-4 is-spaced">Development</h1>
+              <p>I love planning and building quality solutions from the ground up, from the initial draft to the final product.</p>
+            </div>
+            <div class="column"> 
+              <span class="primary-color material-icons x3">engineering</span>
+              <h1 class="title is-size-4 is-spaced">Debugging</h1>
+              <p>Years of technical support experience have afforded me a knack for debugging code in a wide variety of software ecosystems.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section is-medium is-primary has-text-centered is-long-ish">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-three-fifths">
+            <h1 class="title is-spaced is-size-3-desktop is-size-4-mobile">Recent Projects</h1>
+            <h2 class="subtitle is-size-5-desktop">Explore some of my recent projects below. Feel free to <a class="blue-link" href="mailto:patrickjdalton1@gmail.com">shoot me an email</a> if you're interested in collaborating or have questions about my work!</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="section has-text-centered">
+      <div class="container is-narrow">
+          <div class="columns is-multiline level">
+            <div class="column is-12-mobile is-half-tablet is-one-third-desktop level-item">
+              <div class="box">
+                <img src="./images/eats-and-beats.jpg" class="mb-3" style="height:64px;">
+                <h4 class="title is-size-4 is-spaced mb-2">Eats & Beats</h4>
+                <p class="mb-3">Perfectly pairs music and cooking.</p>
+                <a href="https://team-norm-1.github.io/project-1/" target="_blank" class="link has-text-primary button" style="border: none; padding: 0; height: 27px;">Website</a>
+                <span class="divider">|</span>
+                <a href="https://github.com/Team-Norm-1/project-1" target="_blank" class="link has-text-primary button" style="border: none; padding: 0; height: 27px;">GitHub Repository</a>
+              </div>
+            </div>
+            <div class="column is-12-mobile is-half-tablet is-one-third-desktop level-item">
+              <div class="box">
+                <span class="primary-color material-icons x3">policy</span>
+                <h4 class="title is-size-4 is-spaced mb-2">Random Pass</h4>
+                <p class="mb-3">Generates a randomized password based on select criteria.</p>
+                <a href="https://radergan.github.io/random-password-creator/" target="_blank" class="link has-text-primary button" style="border: none; padding: 0; height: 27px;">Website</a>
+                <span class="divider">|</span>
+                <a href="https://github.com/radergan/random-password-creator" target="_blank" class="link has-text-primary button" style="border: none; padding: 0; height: 27px;">GitHub Repository</a>
+              </div>
+            </div>
+            <div class="column is-12-mobile is-half-tablet is-one-third-desktop level-item">
+              <div class="box">
+                <span class="primary-color material-icons x3">nights_stay</span>
+                <h4 class="title is-size-4 is-spaced mb-2">WeatherDash</h4>
+                <p class="mb-3">A dashboard of local weather predictions.</p>
+                <a href="https://radergan.github.io/weather-dashboard/" target="_blank" class="link has-text-primary button" style="border: none; padding: 0; height: 27px;">Website</a>
+                <span class="divider">|</span>
+                <a href="https://github.com/radergan/weather-dashboard" target="_blank" class="link has-text-primary button" style="border: none; padding: 0; height: 27px;">GitHub Repository</a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <footer class="section is-primary is-small has-text-centered">
+      <div class="container is-narrow">
+        <div class="columns is-centered"> 
+          <div class="column is-one-third">
+            <h1 class="title is-size-4-touch">Let's connect!</h1>
+            <div id="contact-info">
+              <div id="social-links">
+                <a href="https://www.linkedin.com/in/patrick-j-dalton-47bbb9192/" target="_blank" class="button is-primary is-inverted is-outlined">Connect On LinkedIn</a>
+              </div>
+              <p><a href="mailto:patrickjdalton1@gmail.com">patrickjdalton1@gmail.com</a></p>
+              <p><a href="tel:773-512-7765">773.512.7765</a></p>
+            </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+          </div>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>

@@ -1,6 +1,6 @@
 # Developer Site
 
-<img align="right" width="300" src="./images/site.jpg" alt="Patrick J. Dalton Developer Site">
+<img align="right" width="300" src="http://radergan.github.io/images/site.jpg" alt="Patrick J. Dalton Developer Site">
 
 Personal developer portfolio site for Patrick Dalton, a web developer living in Chicago, Illinois.
 

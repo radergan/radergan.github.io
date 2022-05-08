@@ -3,16 +3,16 @@
 .hero.is-primary,
 .button.is-primary.is-inverted.is-outlined:hover,
 .button.is-primary.is-hovered, .button.is-primary:hover{
-    background-color:#293d5e;
+    background-color:#12252e
 }
 .svg-fill{
-    fill:#293d5e;
+    fill:#12252e
 }
 .primary-color,.navbar a:hover,.has-text-primary{
-    color:#293d5e!important;
+    color:#12252e!important;
 }
 a.has-text-primary:focus, a.has-text-primary:hover{
-    color:#293d5e!important;
+    color:#12252e!important;
     text-decoration:underline;
 }
 .is-primary .title,

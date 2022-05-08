@@ -29,3 +29,8 @@ a.has-text-primary:focus, a.has-text-primary:hover{
 .button.is-primary.is-inverted.is-outlined:hover{
     text-decoration:none!important;
 }
+
+.button.is-primary.is-inverted.is-outlined {
+    background-color: #143f54;
+    border-color: #005d87;
+}

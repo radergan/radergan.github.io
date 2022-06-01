@@ -3,7 +3,7 @@
 .hero.is-primary,
 .button.is-primary.is-inverted.is-outlined:hover,
 .button.is-primary.is-hovered, .button.is-primary:hover{
-    background-color:#0b354a
+    background-color:#215f7c;
 }
 .svg-fill{
     fill:#12252e

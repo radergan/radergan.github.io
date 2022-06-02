@@ -56,6 +56,12 @@ body{
 #social-links a{
     margin:0.33em;
 }
+.darker-color{
+    color:#143f54;
+}
+.darker-background:hover {
+    background-color:#143f54!important;
+}
 @media screen and (min-width: 1024px){
     .section.is-medium {
         padding: 5rem 1.5rem;

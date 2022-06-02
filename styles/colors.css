@@ -9,10 +9,10 @@
     fill:#12252e
 }
 .primary-color,.navbar a:hover,.has-text-primary{
-    color:#12252e!important;
+    color:#215f7c!important;
 }
 a.has-text-primary:focus, a.has-text-primary:hover{
-    color:#12252e!important;
+    color:#215f7c!important;
     text-decoration:underline;
 }
 .is-primary .title,

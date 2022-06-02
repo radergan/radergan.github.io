@@ -56,6 +56,9 @@ body{
 #social-links a{
     margin:0.33em;
 }
+.primary-color{
+    color:#215f7c;
+}
 .darker-color{
     color:#143f54;
 }
